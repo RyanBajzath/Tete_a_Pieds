@@ -166,7 +166,7 @@ nav {
 .indexBody {
   background-image: url("images/landingPageBackground.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .landingPageMain {
