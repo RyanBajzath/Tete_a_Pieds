@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tenor+Sans&display=swap");
 
 html,
 body,
@@ -133,8 +135,9 @@ a {
 
 /* General styles */
 body {
-  font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; */
   color: #efe3b8;
+  font-family: "Tenor Sans", sans-serif;
 }
 h1 {
   font-size: 2rem;
@@ -144,16 +147,20 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  height: 40vh;
+  font-size: 1.25rem;
+  background-size: cover;
+  background-position: center;
 }
 .logo {
-  font-size: 2rem;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  margin-top: -2vh;
 }
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1em;
-}
+
 /* Index Page */
 
 .indexBody {
@@ -169,7 +176,7 @@ nav {
 }
 .landingPageBio {
   width: 50vw;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,41 +215,44 @@ nav {
   align-items: center;
 }
 .massagesBody h1 {
-  font-size: 2rem;
-  margin-top: -50px;
+  font-size: 3rem;
+  margin-top: -10vh;
+  margin-bottom: 5vh;
 }
 .massagesContainer {
   display: flex;
-  gap: 2em;
+  padding-left: 5vw;
+  padding-right: 5vw;
   flex-wrap: wrap;
+  color: #695125;
+  justify-content: center;
+  align-items: center;
 }
 .massageTile {
-  width: 20vw;
+  width: 18vw;
+  min-width: 200px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: #644e2671 1px solid;
+  text-align: center;
   padding: 1em;
-  border-radius: 8%;
-  background-color: #665b4725;
-  width: 20vw;
 }
-.tileTitle {
-  color: #fffcf0;
+.massageTile img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 .tileBio {
-  color: #695125;
   font-size: 0.8rem;
 }
 .massageTile a {
   padding: 1em;
+  color: #efe3b8;
+  text-align: center;
 }
 .messagesMessage {
-  color: #fffcf0;
   z-index: 100;
-  width: 35vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -252,6 +262,7 @@ nav {
   border: #efe3b8 solid 1px;
   padding: 2em;
   border-radius: 1rem;
+  margin-bottom: 5vh;
 }
 
 /* offers Page */
@@ -267,12 +278,12 @@ nav {
   background-color: #efe3b8;
   display: flex;
   flex-direction: column;
-  color: #efe3b8;
+
   align-items: center;
 }
 .offersMain h1 {
   font-size: 3rem;
-
+  color: #695125;
   margin-top: -10vh;
   margin-bottom: 10vh;
   text-align: center;
@@ -294,7 +305,6 @@ nav {
   height: 100px;
 }
 .tileTitle {
-  color: #745824;
   font-weight: bold;
   margin-bottom: 1em;
 }
@@ -310,6 +320,8 @@ nav {
   margin-top: -10vh;
   margin-bottom: 10vh;
   text-align: center;
+  font-size: 2.5rem;
+  color: #fffcf0;
 }
 
 .ourTeamBody nav {
@@ -356,6 +368,14 @@ nav {
 .getInTouchBody {
   background-color: #efe3b8;
   color: #4d3928;
+}
+.contactMain > p {
+  text-align: center;
+}
+.contactMain > h1 {
+  text-align: center;
+  margin-top: -10vh;
+  margin-bottom: 10vh;
 }
 .contactTitle {
   margin-bottom: 1em;
