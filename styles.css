@@ -167,6 +167,7 @@ nav {
   background-image: url("images/landingPageBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .landingPageMain {
