@@ -132,9 +132,7 @@ a {
   outline: none; /* Removes the outline on focus */
   text-decoration: none;
 }
-html {
-  font-size: 16px; /* or your preferred size */
-}
+
 /* General styles */
 body {
   /* font-family: "Roboto", "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; */
