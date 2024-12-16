@@ -337,8 +337,7 @@ nav {
   background-position: center;
   color: #fffcf0;
 }
-.ourTeamBody footer {
-}
+
 .aboutUsTile {
   color: #fffcf0;
   /* width: 50vw; */
@@ -401,7 +400,7 @@ footer {
   width: 100%;
   color: #fffcf0;
 
-  padding: 1em;
+  padding: 50em;
 }
 
 /* Media queries */
