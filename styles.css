@@ -142,7 +142,9 @@ body {
 h1 {
   font-size: 3rem;
 }
-
+header {
+  width: 100%;
+}
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -407,7 +409,7 @@ footer {
   width: 100%;
   color: #fffcf0;
 
-  padding: 1em;
+  padding: 2rem;
 }
 main {
   padding-bottom: 10vh;
