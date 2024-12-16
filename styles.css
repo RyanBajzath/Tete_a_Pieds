@@ -300,18 +300,19 @@ p {
 .offersContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 40vw;
+  /* width: 40vw; */
 
   /* justify-content: center; */
   align-items: center;
   justify-content: center;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
 }
 .offerTile {
   margin: 1em;
   color: #695125;
   width: 200px;
   height: 100px;
+  margin-bottom: 12vh;
 }
 .tileTitle {
   font-weight: bold;
