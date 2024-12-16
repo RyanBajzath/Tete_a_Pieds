@@ -399,6 +399,7 @@ p {
 .contactContainer {
   display: flex;
   justify-content: space-around;
+  margin-top: 2rem;
 }
 footer {
   text-align: center;
