@@ -1,45 +1,115 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Services de Massothérapie – Relaxation & Bien-être | Relaxez & Rejuvéniez
+    </title>
+    <meta name="author" content="Ryan Bajzath" />
+
+    <meta
+      name="description"
+      content="Découvrez la relaxation ultime avec nos services de massage Suédois, TuiNa et Prénatal. Réservez maintenant pour revitaliser votre corps et votre esprit !"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Metadata -->
+    <meta
+      property="og:title"
+      content="Services de Massothérapie, Relaxation & Bien-être"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez la relaxation ultime avec nos services de massage experts. Réservez votre séance aujourd'hui !"
+    />
+    <meta
+      property="og:image"
+      content="https://teteapieds.com/images/logo.png"
+    />
+    <meta property="og:url" content="https://teteapieds.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/balance.png" type="image/x-icon" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Relax & Rejuvenate Massothérapie",
+        "description": "Massages experts Suédois, TuiNa et Prénatal pour relaxation et bien-être.",
+        "url": "https://teteapieds.com",
+        "telephone": "+1-438-509-1288",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1477 St Joseph Blvd E",
+          "addressLocality": "Montréal",
+          "addressRegion": "QC",
+          "postalCode": "H2J 1M6",
+          "addressCountry": "CA"
+        }
+      }
+    </script>
+
     <link rel="stylesheet" href="../../styles.css" />
-    <title>Tête à Pieds</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body class="indexBody">
-    <nav>
-      <a href="../../index.html" class="logo">Tête à Pieds</a>
-      <a href="../../index.html">EN</a>
-      <a href="massages.html">Massages</a>
-      <a href="offers.html">Offres</a>
-      <a
-        href="https://www.fresha.com/fr/book-now/tete-a-pieds-peteel9a/all-offer?share&pId=1398865"
-        >Rendez-vous</a
-      >
-      <a href="our_team.html">Notre équipe</a>
-      <a href="contact.html">Contact</a>
+    <!-- Navigation -->
+    <nav class="massagesNav">
+      <ul class="navContainer" aria-label="Navigation principale">
+        <li>
+          <a href="#"
+            ><img
+              src="../../images/logoHeader.png"
+              alt="Lien vers la page d'accueil"
+          /></a>
+        </li>
+
+        <li><a href="massages.html">Massages</a></li>
+        <li><a href="offers.html">Forfaits</a></li>
+        <li><a href="our_team.html">Notre Équipe</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="../../index.html" hreflang="en">En</a></li>
+        <li><img src="../../images/clouds.png" alt="" /></li>
+      </ul>
     </nav>
-
-    <main class="landingPageMain">
-      <section class="landingPageBio">
+    <!-- Main Content -->
+    <main>
+      <section class="landingPageSection">
+        <h1>Un Havre de Paix</h1>
         <p>
-          Un oasis chaleureux où votre corps et votre esprit peuvent se
-          détendre, en profitant de soins classiques avec une délicieuse touche
-          de flair oriental !
+          Un oasis douillet où votre corps et votre esprit peuvent se détendre,
+          en profitant d’un soin classique avec une touche d’inspiration
+          orientale !
         </p>
-        <div class="callToAction">
-          <a href="#">Réservez votre échappée</a>
-        </div>
       </section>
+      <a
+        class="callToAction primaryButton"
+        href="https://www.fresha.com/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/all-offer?venue=true&pId=1398865"
+      >
+        Réservez maintenant
+      </a>
     </main>
-
+    <!-- Footer -->
     <footer>
-      <h1 class="logo">Tête à Pieds</h1>
-      <p>1477 St Joseph Blvd E, Montréal,</p>
-      <a href="tel:4385091288">(438) 509 1288</a>
-      <br />
-
-      <a href="../../policie.html">politiques</a>
+      <img class="footerImg" src="images/footerImg.png" alt="" />
+      <ul class="footerContainer">
+        <li><a href="#">Tête à Pieds</a></li>
+        <li><a href="tel:+14385091288">(438) 509 1288</a></li>
+        <li><p>1477 St Joseph Blvd E, Montréal</p></li>
+        <li><a href="policie.html">Politiques</a></li>
+        <li>
+          <a href="https://www.instagram.com/massage_tete_a_pieds/">
+            <i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

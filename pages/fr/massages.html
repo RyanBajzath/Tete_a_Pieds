@@ -1,137 +1,251 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Services de Massothérapie – Relaxation & Bien-être | Relaxez & Rejuvéniez
+    </title>
+    <meta
+      name="description"
+      content="Découvrez la relaxation ultime avec nos services de massage Suédois, TuiNa et Prénatal. Réservez maintenant pour revitaliser votre corps et votre esprit !"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Metadata -->
+    <meta
+      property="og:title"
+      content="Services de Massothérapie, Relaxation & Bien-être"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez la relaxation ultime avec nos services de massage experts. Réservez votre séance aujourd'hui !"
+    />
+    <meta
+      property="og:image"
+      content="https://teteapieds.com/images/clouds.png"
+    />
+    <meta property="og:url" content="https://teteapieds.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/balance.png" type="image/x-icon" />
+    <meta name="author" content="Ryan Bajzath" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Relax & Rejuvenate Massothérapie",
+        "description": "Massages experts Suédois, TuiNa et Prénatal pour relaxation et bien-être.",
+        "url": "https://teteapieds.com",
+        "telephone": "+1-438-509-1288",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1477 St Joseph Blvd E",
+          "addressLocality": "Montréal",
+          "addressRegion": "QC",
+          "postalCode": "H2J 1M6",
+          "addressCountry": "CA"
+        }
+      }
+    </script>
+
     <link rel="stylesheet" href="../../styles.css" />
-    <title>Tête à Pieds</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body class="massagesBody">
-    <header>
-      <nav>
-        <a href="../../index.html" class="logo">Tête à Pieds</a>
-        <a href="../en/massages.html">en</a>
-        <a href="massages.html">Massages</a>
-        <a href="offers.html">Offres</a>
-        <a
-          href="https://www.fresha.com/fr/book-now/tete-a-pieds-peteel9a/all-offer?share&pId=1398865"
-          >Rendez-vous</a
-        >
-        <a href="our_team.html">Notre équipe</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-    <main class="massagesMain">
-      <section class="messagesMessage">
+  <body>
+    <!-- Navigation -->
+    <nav class="massagesNav">
+      <ul class="navContainer" aria-label="Navigation principale">
+        <li>
+          <a href="../../index.html"
+            ><img
+              src="../../images/logoHeader.png"
+              alt="Lien vers la page d'accueil"
+          /></a>
+        </li>
+
+        <li><a href="massages.html">Massages</a></li>
+        <li><a href="offers.html">Forfaits</a></li>
+        <li><a href="our_team.html">Notre Équipe</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="../en/massages.html" hreflang="en">En</a></li>
+        <li><img src="../../images/clouds.png" alt="" /></li>
+      </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+      <section class="massagesPageSection pageIntro">
         <h1>Nos Massages</h1>
         <p>
-          Sur rendez-vous uniquement. N'hésitez pas à nous contacter pour des
-          disponibilités de dernière minute.
+          Un oasis douillet où votre corps et votre esprit peuvent se détendre,
+          en profitant d’un soin classique avec une touche d’inspiration
+          orientale !
         </p>
         <p>
-          Tous nos professionnels sont membres d'associations professionnelles
-          reconnues au Québec, et nous fournissons des reçus pour assurances.
-          Veuillez nous prévenir 24 heures à l'avance en cas d'annulation. Vous
-          pouvez consulter notre politique d'annulation ici.
+          Tous nos professionnels sont membres d’associations professionnelles
+          reconnues au Québec, et nous fournissons des reçus pour les
+          assurances. Veuillez nous informer au moins 24 heures à l’avance si
+          vous devez annuler. Vous pouvez consulter notre politique d’annulation
+          ici.
         </p>
         <a
-          href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-          >réservez votre échappée</a
+          class="primaryButton"
+          href="https://www.fresha.com/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/all-offer?venue=true&pId=1398865"
         >
+          Réservez maintenant
+        </a>
       </section>
-      <section class="massagesContainer">
-        <div class="massageTile">
-          <img src="../../images/tile1.png" />
-          <p class="tileTitle">Massage Suédois</p>
-          <p class="tileBio">
-            Une thérapie conçue pour soulager le stress et favoriser une
+
+      <section id="massagesContainer">
+        <section class="massageTile">
+          <img src="../../images/tile1.png" alt="Massage Suédois" />
+          <h3>Massage Suédois</h3>
+          <p>
+            Une thérapie conçue pour soulager le stress et promouvoir la
             relaxation complète du corps.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
-        <div class="massageTile">
-          <img src="../../images/tile2.png" />
-          <p class="tileTitle">Massage de Drainage Lymphatique</p>
-          <p class="tileBio">
-            Techniques de massage douces pour réduire les gonflements et
-            améliorer la circulation lymphatique.
+        </section>
+
+        <section class="massageTile">
+          <img
+            src="../../images/tile2.png"
+            alt="Massage Drainage Lymphatique"
+          />
+          <h3>Massage Drainage Lymphatique</h3>
+          <p>
+            Techniques de massage douces qui aident à réduire les gonflements et
+            à améliorer la circulation lymphatique.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
-        <div class="massageTile">
-          <img src="../../images/tile3.png" />
-          <p class="tileTitle">Massage aux Pierres Chaudes</p>
-          <p class="tileBio">
-            Une relaxation profonde utilisant des pierres chauffées pour
-            soulager les tensions musculaires.
+        </section>
+
+        <section class="massageTile">
+          <img src="../../images/tile3.png" alt="Massage aux Pierres Chaudes" />
+          <h3>Massage aux Pierres Chaudes</h3>
+          <p>
+            Relaxation profonde utilisant des pierres chauffées pour libérer les
+            tensions musculaires.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
-        <div class="massageTile">
-          <img src="../../images/tile4.png" />
-          <p class="tileTitle">Réflexologie Plantaire</p>
-          <p class="tileBio">
-            Stimule des zones réflexes spécifiques sur les pieds pour améliorer
-            l'équilibre naturel et la santé du corps.
+        </section>
+
+        <section class="massageTile">
+          <img src="../../images/tile4.png" alt="Réflexologie Plantaire" />
+          <h3>Réflexologie Plantaire</h3>
+          <p>
+            Stimule des zones réflexes spécifiques des pieds pour améliorer
+            l’équilibre naturel et la santé du corps.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
-        <div class="massageTile">
-          <img src="../../images/tile5.png" />
-          <p class="tileTitle">Massage Prénatal</p>
-          <p class="tileBio">
-            Conçu spécialement pour les futures mamans, il soulage les
-            inconforts et procure une relaxation pendant la grossesse.
+        </section>
+
+        <section class="massageTile">
+          <img src="../../images/tile5.png" alt="Massage Prénatal" />
+          <h3>Massage Prénatal</h3>
+          <p>
+            Spécialement conçu pour les futures mamans afin d’atténuer les
+            inconforts et offrir une relaxation pendant la grossesse.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
-        <div class="massageTile">
-          <img src="../../images/tile6.png" />
-          <p class="tileTitle">Thérapie par Ventouses</p>
-          <p class="tileBio">
+        </section>
+
+        <section class="massageTile">
+          <img src="../../images/tile6.png" alt="Thérapie par Ventouses" />
+          <h3>Thérapie par Ventouses</h3>
+          <p>
             Utilise des techniques de ventouses pour améliorer la circulation
             sanguine et relâcher les tensions musculaires.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
-        <div class="massageTile">
-          <img src="../../images/tile7.png" />
-          <p class="tileTitle">Massage Tuina</p>
-          <p class="tileBio">
-            Une technique de médecine traditionnelle chinoise combinant des
-            pressions et des étirements pour rétablir l'équilibre énergétique.
+        </section>
+
+        <section class="massageTile">
+          <img src="../../images/tile7.png" alt="Massage Tuina" />
+          <h3>Massage Tuina</h3>
+          <p>
+            Une technique de médecine chinoise traditionnelle combinant
+            pressions et étirements pour rééquilibrer l'énergie.
           </p>
           <a
             href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
-            >réservez votre échappée</a
+            >Réservez maintenant</a
           >
-        </div>
+        </section>
+
+        <section class="massageTile">
+          <img
+            src="../../images/tile8.png"
+            alt="Massage Spa Crânien par Acupression"
+          />
+          <h3>Massage Spa Crânien par Acupression</h3>
+          <p>
+            Se concentre sur les points d'acupression de la tête pour soulager
+            le stress, améliorer le sommeil et apaiser les maux de tête.
+          </p>
+          <a
+            href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
+            >Réservez maintenant</a
+          >
+        </section>
+
+        <section class="massageTile">
+          <img
+            src="../../images/tile9.png"
+            alt="Massage de l’ATM (Articulation Temporo-Mandibulaire)"
+          />
+          <h3>Massage de l’ATM (Articulation Temporo-Mandibulaire)</h3>
+          <p>
+            Utilise des techniques externes et internes (optionnelles) pour
+            soulager les tensions des muscles de la mâchoire, les douleurs
+            cervicales et les maux de tête tout en améliorant la mobilité
+            articulaire.
+          </p>
+          <a
+            href="https://www.fresha.com/fr/a/massage-tete-a-pieds-montreal-montreal-1477-boulevard-saint-joseph-est-qj90g2wv/booking?allOffer=true&menu=true&pId=1398865"
+            >Réservez maintenant</a
+          >
+        </section>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
-      <h2 class="logo">Tête à Pieds</h2>
-      <p>1477 St Joseph Blvd E, Montréal,</p>
-      <a href="tel:4385091288">(438) 509 1288</a>
-      <br />
-      <a href="../../policie.html">politiques</a>
+      <img class="footerImg" src="../../images/footerImg.png" alt="" />
+      <ul class="footerContainer">
+        <li><a href="/index.html">Tête à Pieds</a></li>
+        <li><a href="tel:+14385091288">(438) 509 1288</a></li>
+        <li><p>1477 St Joseph Blvd E, Montréal</p></li>
+        <li><a href="policie.html">Politiques</a></li>
+        <li>
+          <a href="https://www.instagram.com/massage_tete_a_pieds/">
+            <i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
