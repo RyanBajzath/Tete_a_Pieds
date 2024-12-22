@@ -452,6 +452,8 @@ footer {
 iframe {
   width: 30vw;
   height: 30vh;
+  min-height: 200px;
+  min-width: 250px;
 }
 
 @media (max-width: 1150px) {
