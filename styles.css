@@ -336,6 +336,7 @@ footer {
 }
 .packageTile {
   width: 300px;
+
   border: #4a4a4a 1px solid;
   border-radius: 8px;
   padding: 1em;
@@ -485,5 +486,14 @@ iframe {
   }
   .navContainer > :last-child {
     display: none;
+  }
+  .pageIntro {
+    width: 100%;
+  }
+  #packagesContainer {
+    width: 80vw;
+  }
+  .packageTile {
+    width: 100%;
   }
 }
