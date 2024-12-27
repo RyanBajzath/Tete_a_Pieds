@@ -498,4 +498,16 @@ iframe {
   .packageTile {
     width: 100%;
   }
+  #massagesContainer {
+    width: 80vw;
+  }
+}
+@media (max-width: 640px) {
+  .massageTile {
+    width: 80%;
+    height: auto;
+  }
+  #massagesContainer {
+    width: auto;
+  }
 }
