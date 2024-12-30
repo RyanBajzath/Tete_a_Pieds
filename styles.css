@@ -455,6 +455,9 @@ iframe {
   min-height: 200px;
   min-width: 250px;
 }
+.hamburger {
+  display: none; /* Hide hamburger icon by default */
+}
 
 @media (max-width: 1150px) {
   .navContainer {
@@ -501,6 +504,70 @@ iframe {
   #massagesContainer {
     width: 80vw;
   }
+  .navContainer {
+    border: none;
+  }
+  .hamburger {
+    display: flex; /* Show hamburger icon */
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    background-color: #d8a790;
+    /* margin-bottom: 1em; */
+  }
+  main {
+    margin-top: 1em;
+  }
+  .hamburger span {
+    height: 6px;
+    width: 40px;
+    background-color: #000000;
+    border-radius: 3px;
+    border: white solid 1px;
+  }
+  .hamburgerLandingPage span {
+    height: 3px;
+    width: 25px;
+    background-color: #fbfbfb;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+  }
+
+  /* Hide navigation links by default */
+  .navContainer {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.629); /* Adjust as needed */
+    /* position: absolute; */
+
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    /* padding: 1rem; */
+    border-top: 1px solid #ddd;
+    border: none;
+    outline: none;
+  }
+  .landingPageSection {
+    width: 80%;
+  }
+  .massagesNav {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .massagesNav .active {
+    border: none;
+    padding: 0px;
+
+    margin-bottom: 1em;
+    padding: 1em;
+  }
 }
 @media (max-width: 640px) {
   .massageTile {
@@ -510,4 +577,9 @@ iframe {
   #massagesContainer {
     width: auto;
   }
+}
+
+/* Show navigation links when active */
+.navContainer.active {
+  display: flex;
 }
