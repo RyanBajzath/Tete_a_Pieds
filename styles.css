@@ -502,8 +502,3 @@ iframe {
     width: 100%;
   }
 }
-
-/* Show navigation links when active */
-.navContainer.active {
-  display: flex;
-}
