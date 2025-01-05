@@ -307,6 +307,10 @@ footer {
   padding: 1em;
   border-radius: 8px;
   background-color: #f4ede4;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 2em;
 }
 .massageTile img {
   width: 100%;
