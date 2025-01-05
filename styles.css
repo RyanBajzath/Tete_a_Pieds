@@ -455,9 +455,6 @@ iframe {
   min-height: 200px;
   min-width: 250px;
 }
-.hamburger {
-  display: none; /* Hide hamburger icon by default */
-}
 
 @media (max-width: 1150px) {
   .navContainer {
@@ -500,5 +497,17 @@ iframe {
   }
   .packageTile {
     width: 100%;
+  }
+  #massagesContainer {
+    width: 80vw;
+  }
+}
+@media (max-width: 640px) {
+  .massageTile {
+    width: 80%;
+    height: auto;
+  }
+  #massagesContainer {
+    width: auto;
   }
 }
