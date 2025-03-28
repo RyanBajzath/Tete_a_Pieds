@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 html,
 body,
@@ -170,7 +172,7 @@ footer {
 }
 h1 {
   font-size: 2rem;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
 }
 h2 {
   font-size: 1.5rem;
@@ -531,6 +533,11 @@ iframe {
   width: 100%;
   position: fixed;
 }
+.myTopnav > a {
+  font-size: 2rem !important;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -585,4 +592,9 @@ iframe {
     display: block;
     text-align: left;
   }
+}
+.topnav > :first-child {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
