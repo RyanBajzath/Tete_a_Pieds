@@ -291,6 +291,8 @@ footer {
 
 /* massages page */
 .massagesNav {
+  width: 100%;
+  position: fixed;
   border-bottom: #4a4a4a 1px solid;
 }
 #massagesContainer {
