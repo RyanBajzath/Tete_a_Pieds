@@ -6,7 +6,7 @@
     <title>About Our Massage Therapy Services</title>
 
     <meta name="author" content="Ryan Bajzath" />
-
+    <script src="../../script.js"></script>
     <meta
       name="description"
       content="Contact us today to schedule your massage therapy appointment or to learn more about our services. We're here to help!"
@@ -75,22 +75,20 @@
   </head>
 
   <body>
-    <!-- Navigation -->
     <nav class="massagesNav">
-      <ul class="navContainer" aria-label="Main Navigation">
-        <li>
-          <a href="../../index.html"
-            ><img src="../../images/logoHeader.png" alt="index page link"
-          /></a>
-        </li>
-
-        <li><a href="offers.html">Packages</a></li>
-        <li><a href="our_team.html">Our Team</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="../fr/contact.html" hreflang="fr">Fr</a></li>
-        <li><img src="../../images/clouds.png" alt="" /></li>
-      </ul>
+      <div class="topnav" id="myTopnav">
+        <a href="../../index.html">Tete a Pieds</a>
+        <a href="offers.html">Packages</a>
+        <a href="our_team.html">Our Team</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="../fr/contact.html" hreflang="fr">Fr</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
+    <!-- Navigation -->
+
     <main class="contactMain">
       <h1>Get in Touch</h1>
       <p>

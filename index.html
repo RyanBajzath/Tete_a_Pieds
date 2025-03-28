@@ -34,7 +34,7 @@
     <link
       rel="alternate"
       hreflang="en"
-      href="https://www.teteapieds.com/pages/index.html"
+      href="https://www.teteapieds.com/index.html"
     />
     <!-- Favicon -->
     <link rel="icon" href="/images/balance.png" type="image/x-icon" />
@@ -68,22 +68,21 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="massagesNav">
-      <ul class="navContainer" aria-label="Main Navigation">
-        <li>
-          <a href="../../index.html"
-            ><img src="../../images/logoHeader.png" alt="index page link"
-          /></a>
-        </li>
 
-        <li><a href="pages/en/offers.html">Packages</a></li>
-        <li><a href="pages/en/our_team.html">Our Team</a></li>
-        <li><a href="pages/en/contact.html">Contact</a></li>
-        <li><a href="pages/fr/index.html" hreflang="fr">Fr</a></li>
-        <li><img src="../../images/clouds.png" alt="" /></li>
-      </ul>
+    <nav class="massagesNav">
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Tete a Pieds</a>
+        <a href="pages/en/offers.html">Packages</a>
+        <a href="pages/en/our_team.html">Our Team</a>
+        <a href="pages/en/contact.html">Contact</a>
+        <a href="pages/fr/index.html" hreflang="fr">Fr</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
     <!-- Main Content -->
+
     <main>
       <section class="massagesPageSection pageIntro">
         <h1>Our Massages</h1>
@@ -233,5 +232,16 @@
         </li>
       </ul>
     </footer>
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>

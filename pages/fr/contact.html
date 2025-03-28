@@ -29,7 +29,7 @@
     />
     <meta property="og:url" content="https://teteapieds.com/" />
     <meta property="og:type" content="website" />
-
+    <script src="../../script.js"></script>
     <!-- Favicon -->
     <link rel="icon" href="/images/balance.png" type="image/x-icon" />
 
@@ -77,22 +77,18 @@
   <body>
     <!-- Navigation -->
     <nav class="massagesNav">
-      <ul class="navContainer" aria-label="Navigation principale">
-        <li>
-          <a href="index.html"
-            ><img
-              src="../../images/logoHeader.png"
-              alt="Lien vers la page d'accueil"
-          /></a>
-        </li>
-
-        <li><a href="offers.html">Forfaits</a></li>
-        <li><a href="our_team.html">Notre équipe</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="../en/contact.html" hreflang="en">En</a></li>
-        <li><img src="../../images/clouds.png" alt="" /></li>
-      </ul>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Tete a Pieds</a>
+        <a href="offers.html">Forfaits</a>
+        <a href="our_team.html">Notre Équipe</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="../en/contact.html" hreflang="en">En</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
+
     <main class="contactMain">
       <h1>Contactez-nous</h1>
       <p>
